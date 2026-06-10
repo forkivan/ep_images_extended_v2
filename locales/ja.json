@@ -1,0 +1,6 @@
+{
+  "ep_images_extended.toolbar.image_upload.title": "画像をアップロード",
+  "ep_images_extended.error.title": "エラー",
+  "ep_images_extended.error.fileSize": "ファイルサイズが大きすぎます！最大許可サイズは {{maxallowed}} MB です。",
+  "ep_images_extended.error.fileType": "無効なファイルタイプです！"
+} 

@@ -1,0 +1,6 @@
+{
+  "ep_images_extended.toolbar.image_upload.title": "Téléverser une image",
+  "ep_images_extended.error.title": "Erreur",
+  "ep_images_extended.error.fileSize": "Le fichier est trop volumineux ! La taille maximale autorisée est de {{maxallowed}} Mo.",
+  "ep_images_extended.error.fileType": "Type de fichier invalide !"
+} 

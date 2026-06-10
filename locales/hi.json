@@ -1,0 +1,6 @@
+{
+  "ep_images_extended.toolbar.image_upload.title": "तस्वीर अपलोड करें",
+  "ep_images_extended.error.title": "त्रुटि",
+  "ep_images_extended.error.fileSize": "फ़ाइल बहुत बड़ी है! अधिकतम अनुमत आकार {{maxallowed}} MB है।",
+  "ep_images_extended.error.fileType": "अवैध फ़ाइल प्रकार!"
+} 

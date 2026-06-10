@@ -1,0 +1,6 @@
+{
+  "ep_images_extended.toolbar.image_upload.title": "رفع صورة",
+  "ep_images_extended.error.title": "خطأ",
+  "ep_images_extended.error.fileSize": "الملف كبير جدًا! الحجم الأقصى المسموح به هو {{maxallowed}} ميجابايت.",
+  "ep_images_extended.error.fileType": "نوع ملف غير صالح!"
+} 

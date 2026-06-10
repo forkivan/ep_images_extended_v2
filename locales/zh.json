@@ -1,0 +1,6 @@
+{
+  "ep_images_extended.toolbar.image_upload.title": "上传图片",
+  "ep_images_extended.error.title": "错误",
+  "ep_images_extended.error.fileSize": "文件过大！最大允许大小为 {{maxallowed}} MB。",
+  "ep_images_extended.error.fileType": "无效的文件类型！"
+} 

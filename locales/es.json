@@ -1,0 +1,6 @@
+{
+  "ep_images_extended.toolbar.image_upload.title": "Cargar imagen",
+  "ep_images_extended.error.title": "Error",
+  "ep_images_extended.error.fileSize": "¡El archivo es demasiado grande! El tamaño máximo permitido es {{maxallowed}} MB.",
+  "ep_images_extended.error.fileType": "Tipo de archivo no válido"
+} 

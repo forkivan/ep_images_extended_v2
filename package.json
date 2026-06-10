@@ -1,0 +1,45 @@
+{
+  "name": "ep_images_extended_v2",
+  "description": "Insert images inline with text, float them, resize them — with fixed HTML/DOCX export. Fork of ep_images_extended with export bug fixes.",
+  "version": "2.0.0",
+  "author": {
+    "name": "Ivan Forkaliuk",
+    "url": "https://github.com/forkivan"
+  },
+  "contributors": [
+    {
+      "name": "DCastelone",
+      "url": "https://github.com/dcastelone"
+    }
+  ],
+  "dependencies": {
+    "mime-db": "1.49.0",
+    "@aws-sdk/client-s3": "^3.555.0",
+    "@aws-sdk/s3-request-presigner": "^3.555.0"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "etherpad",
+    "plugin",
+    "ep_plugin",
+    "ep",
+    "images",
+    "upload",
+    "img",
+    "export"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forkivan/ep_images_extended_v2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/forkivan/ep_images_extended_v2/issues"
+  },
+  "homepage": "https://github.com/forkivan/ep_images_extended_v2",
+  "peerDependencies": {
+    "ep_etherpad-lite": ">=1.8.6"
+  },
+  "engines": {
+    "node": ">=11.14.0"
+  }
+}
