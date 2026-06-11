@@ -7,29 +7,29 @@
         "ep_hyperlinked_text/main"
       ],
       "client_hooks": {
-        "postToolbarInit": "ep_images_extended/static/js/toolbar",
-        "aceAttribsToClasses" : "ep_images_extended/static/js/clientHooks",
-        "postAceInit": "ep_images_extended/static/js/clientHooks",
-        "aceInitialized": "ep_images_extended/static/js/clientHooks",
-        "aceCreateDomLine": "ep_images_extended/static/js/clientHooks",
-        "aceAttribClasses": "ep_images_extended/static/js/clientHooks",
-        "aceEditorCSS": "ep_images_extended/static/js/clientHooks",
-        "acePostWriteDomLineHTML": "ep_images_extended/static/js/clientHooks",
-        "collectContentPre": "ep_images_extended/static/js/contentCollection",
-        "collectContentPost": "ep_images_extended/static/js/clientHooks",
-        "aceKeyEvent": "ep_images_extended/static/js/clientHooks"
+        "postToolbarInit": "ep_images_extended_v2/static/js/toolbar",
+        "aceAttribsToClasses" : "ep_images_extended_v2/static/js/clientHooks",
+        "postAceInit": "ep_images_extended_v2/static/js/clientHooks",
+        "aceInitialized": "ep_images_extended_v2/static/js/clientHooks",
+        "aceCreateDomLine": "ep_images_extended_v2/static/js/clientHooks",
+        "aceAttribClasses": "ep_images_extended_v2/static/js/clientHooks",
+        "aceEditorCSS": "ep_images_extended_v2/static/js/clientHooks",
+        "acePostWriteDomLineHTML": "ep_images_extended_v2/static/js/clientHooks",
+        "collectContentPre": "ep_images_extended_v2/static/js/contentCollection",
+        "collectContentPost": "ep_images_extended_v2/static/js/clientHooks",
+        "aceKeyEvent": "ep_images_extended_v2/static/js/clientHooks"
       },
       "hooks":{
-        "clientVars": "ep_images_extended/index",
-        "eejsBlock_body": "ep_images_extended/index",
-        "expressConfigure": "ep_images_extended/index",
-        "eejsBlock_editbarMenuLeft": "ep_images_extended/editbar",
-        "loadSettings": "ep_images_extended/settings",
-        "collectContentPre": "ep_images_extended/static/js/contentCollection",
-        "eejsBlock_styles": "ep_images_extended/index",
-        "eejsBlock_timesliderStyles": "ep_images_extended/index",
-        "getLineHTMLForExport": "ep_images_extended/exportHTML",
-        "stylesForExport": "ep_images_extended/exportHTML"
+        "clientVars": "ep_images_extended_v2/index",
+        "eejsBlock_body": "ep_images_extended_v2/index",
+        "expressConfigure": "ep_images_extended_v2/index",
+        "eejsBlock_editbarMenuLeft": "ep_images_extended_v2/editbar",
+        "loadSettings": "ep_images_extended_v2/settings",
+        "collectContentPre": "ep_images_extended_v2/static/js/contentCollection",
+        "eejsBlock_styles": "ep_images_extended_v2/index",
+        "eejsBlock_timesliderStyles": "ep_images_extended_v2/index",
+        "getLineHTMLForExport": "ep_images_extended_v2/exportHTML",
+        "stylesForExport": "ep_images_extended_v2/exportHTML"
       }
     }
   ]
