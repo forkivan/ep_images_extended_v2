@@ -87,19 +87,19 @@ exports.clientVars = (hookName, args, cb) => {
 };
 
 exports.eejsBlock_styles = (hookName, args, cb) => {
-  args.content += "<link href='../static/plugins/ep_images_extended/static/css/ace.css' rel='stylesheet'>";
+  args.content += "<link href='../static/plugins/ep_images_extended_v2/static/css/ace.css' rel='stylesheet'>";
   return cb();
 };
 
 exports.eejsBlock_timesliderStyles = (hookName, args, cb) => {
-  args.content += "<link href='../../static/plugins/ep_images_extended/static/css/ace.css' rel='stylesheet'>";
+  args.content += "<link href='../../static/plugins/ep_images_extended_v2/static/css/ace.css' rel='stylesheet'>";
   args.content += '<style>.control-container{display:none}</style>';
   return cb();
 };
 
 exports.eejsBlock_body = (hookName, args, cb) => {
-  const modal = eejs.require('ep_images_extended/templates/modal.ejs');
-  const imageFormatMenu = eejs.require('ep_images_extended/templates/imageFormatMenu.ejs');
+  const modal = eejs.require('ep_images_extended_v2/templates/modal.ejs');
+  const imageFormatMenu = eejs.require('ep_images_extended_v2/templates/imageFormatMenu.ejs');
   args.content += modal;
   args.content += imageFormatMenu;
 
