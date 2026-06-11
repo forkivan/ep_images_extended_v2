@@ -1424,7 +1424,7 @@ function _getLineNumberOfElement(element) {
 exports.aceEditorCSS = (hookName, context) => {
   // console.log('[ep_images_extended] aceEditorCSS called - loading CSS file');
   return [
-    'ep_images_extended/static/css/ace.css'
+    'ep_images_extended_v2/static/css/ace.css'
   ];
 };
 
