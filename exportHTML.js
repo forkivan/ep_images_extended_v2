@@ -34,6 +34,7 @@ exports.getLineHTMLForExport = async (hook, context) => {
   if (!attribLine) return;
 
   let imgsHTML = '';
+  let lineFloatValue = null; // float of the first image on the line
   const opIter = Changeset.opIterator(attribLine);
 
   while (opIter.hasNext()) {
@@ -66,6 +67,11 @@ exports.getLineHTMLForExport = async (hook, context) => {
       const imageWidthAttrib = Changeset.opAttributeValue(op, 'image-width', apool);
       const imageHeightAttrib = Changeset.opAttributeValue(op, 'image-height', apool);
       const imageIdAttrib = Changeset.opAttributeValue(op, 'image-id', apool);
+      const imageFloatAttrib = Changeset.opAttributeValue(op, 'image-float', apool);
+
+      if (lineFloatValue === null) {
+        lineFloatValue = imageFloatAttrib || 'none';
+      }
 
       const escapedSrc = decodedSrc.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
       let tag = `<img src="${escapedSrc}"`;
@@ -89,11 +95,13 @@ exports.getLineHTMLForExport = async (hook, context) => {
 
   if (!imgsHTML) return;
 
-  const alignMatch = context.lineContent.match(/^<p style='text-align:([^']+)'>([\s\S]*)<\/p>$/);
-  if (alignMatch) {
-    context.lineContent = `<p style='text-align:${alignMatch[1]}'>${imgsHTML}</p>`;
+  if (lineFloatValue === 'left') {
+    context.lineContent = `<p style='float:left;margin:0 4px 4px 0'>${imgsHTML}</p>`;
+  } else if (lineFloatValue === 'right') {
+    context.lineContent = `<p style='float:right;margin:0 0 4px 4px'>${imgsHTML}</p>`;
   } else {
-    context.lineContent = `<p>${imgsHTML}</p>`;
+    // float:none or default — center the image
+    context.lineContent = `<p style='text-align:center'>${imgsHTML}</p>`;
   }
 };
 
