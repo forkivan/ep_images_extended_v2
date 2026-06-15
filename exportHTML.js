@@ -106,5 +106,7 @@ exports.getLineHTMLForExport = async (hook, context) => {
 };
 
 exports.stylesForExport = (hook, padId, cb) => {
-  cb('img { max-width: 100%; vertical-align: middle; }');
+  // height:auto keeps the aspect ratio when max-width:100% shrinks a wide image
+  // in a narrow viewport (otherwise the fixed height="" attribute squishes it).
+  cb('img { max-width: 100%; height: auto; vertical-align: middle; }');
 };

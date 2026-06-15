@@ -1,7 +1,7 @@
 {
   "name": "ep_images_extended_v2",
   "description": "Insert images inline with text, float them, resize them — with fixed HTML/DOCX export. Fork of ep_images_extended with export bug fixes.",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "author": {
     "name": "Ivan Forkaliuk",
     "url": "https://github.com/forkivan"
