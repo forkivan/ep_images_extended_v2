@@ -49,6 +49,17 @@ PDF export in Etherpad uses `pdfkit` with a built-in HTML parser that does not s
 
 ---
 
+## Requirements
+
+**Etherpad only** (`ep_etherpad-lite`) — no other plugin is required; this plugin
+adds image support itself. For images in **PDF** export specifically, also use a
+real PDF exporter such as
+[`ep_pdf_export_print`](https://www.npmjs.com/package/ep_pdf_export_print) or
+[`ep_pdf_export_chromium`](https://www.npmjs.com/package/ep_pdf_export_chromium),
+since core PDF export ignores images (see the note above).
+
+---
+
 ## Installation
 
 Via the Etherpad admin panel — search for `ep_images_extended_v2`.
